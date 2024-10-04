@@ -12,6 +12,7 @@ class AuthorRepository {
       return newAuthor;
     }
 
+    // to find by directly passing the author data from the request body
     async findByData(authorData: Partial<IAuthor>): Promise<IAuthor | null> {
         const author = await Author.findOne(authorData as FilterQuery<IAuthor>);
         return author;

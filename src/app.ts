@@ -1,5 +1,3 @@
-// src/app.ts
-
 import express from 'express';
 import bookRoutes from './routes/bookRoutes';
 

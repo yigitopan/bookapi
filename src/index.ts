@@ -1,5 +1,3 @@
-// src/index.ts
-
 import mongoose from 'mongoose';
 import app from './app';
 
